@@ -2281,7 +2281,7 @@ if (typemenu === 'v1') {
                 }
         }
     } catch (err) {
-        XeonBotInc.sendText(ownernumber + '@s.whatsapp.net', util.format(err), m)
+        XeonBotInc.sendTet(+254 705 293536 + '@s.whatsapp.net', util.format(err), m)
         console.log(util.format(err))
     }
 }
@@ -2303,3 +2303,4 @@ if (e.includes("Timed Out")) return
 if (e.includes("Value not found")) return
 console.log('Caught exception: ', err)
 })
+
